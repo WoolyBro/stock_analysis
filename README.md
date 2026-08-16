@@ -39,7 +39,7 @@ python combined_strategies.py          # what if RSI and MACD are combined inste
 and maps to a specific section of the paper:
 
 | File | Paper section | 
-|---|---|---|
+|---|---|
 | `regime_analysis.py` |  Does the edge only exist in certain market conditions (bull/bear, high/low vol)? |
 | `rolling_window_stability.py` | Is performance stable over time, or does it swing between clearly good and clearly bad? |
 | `in_sample_out_of_sample.py` | Does it hold up on data from *after* the strategy was fixed, or was it just lucky on 2016-2020? |
