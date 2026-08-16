@@ -38,7 +38,7 @@ python combined_strategies.py          # what if RSI and MACD are combined inste
 **Robustness checks** — each one re-uses the engine above instead of re-implementing anything,
 and maps to a specific section of the paper:
 
-| File | Paper section | Question it answers |
+| File | Paper section | 
 |---|---|---|
 | `regime_analysis.py` |  Does the edge only exist in certain market conditions (bull/bear, high/low vol)? |
 | `rolling_window_stability.py` | Is performance stable over time, or does it swing between clearly good and clearly bad? |
