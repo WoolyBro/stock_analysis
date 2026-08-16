@@ -40,10 +40,10 @@ and maps to a specific section of the paper:
 
 | File | Paper section | Question it answers |
 |---|---|---|
-| `regime_analysis.py` | 3.3.1 | Does the edge only exist in certain market conditions (bull/bear, high/low vol)? |
-| `rolling_window_stability.py` | 3.3.2 | Is performance stable over time, or does it swing between clearly good and clearly bad? |
-| `in_sample_out_of_sample.py` | 3.3.3 | Does it hold up on data from *after* the strategy was fixed, or was it just lucky on 2016-2020? |
-| `combined_strategies.py` | 3.6 | Does requiring RSI and MACD to agree (or blending them) do any better than either alone? |
+| `regime_analysis.py` |  Does the edge only exist in certain market conditions (bull/bear, high/low vol)? |
+| `rolling_window_stability.py` | Is performance stable over time, or does it swing between clearly good and clearly bad? |
+| `in_sample_out_of_sample.py` | Does it hold up on data from *after* the strategy was fixed, or was it just lucky on 2016-2020? |
+| `combined_strategies.py` | Does requiring RSI and MACD to agree (or blending them) do any better than either alone? |
 
 Sections not built yet: 3.2.3 (max holding period), 3.2.4 (MACD span sweep), 3.4/3.5
 (cross-sectional and geographic), 3.7 (transaction costs, placebo test), 3.8 (statistical
